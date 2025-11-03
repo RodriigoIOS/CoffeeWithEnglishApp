@@ -16,6 +16,17 @@
 		5B711C522EB45FE500BCE696 /* ConversationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B711C512EB45FE500BCE696 /* ConversationCoordinator.swift */; };
 		5B711C542EB461A000BCE696 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B711C532EB461A000BCE696 /* AppDependencies.swift */; };
 		5B711C562EB4659B00BCE696 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B711C552EB4659B00BCE696 /* HomeViewController.swift */; };
+		5B8EDFDE2EB6FB3900BAB582 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8EDFDD2EB6FB3900BAB582 /* ActivityCell.swift */; };
+		5B9717C02EB7B28A00EE82A9 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9717BF2EB7B28A00EE82A9 /* ConversationViewController.swift */; };
+		5B9717C22EB818F600EE82A9 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9717C12EB818F600EE82A9 /* MessageCell.swift */; };
+		5B9717C42EB81F6500EE82A9 /* UserProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9717C32EB81F6500EE82A9 /* UserProgress.swift */; };
+		5B9717C62EB8207200EE82A9 /* ConversationScenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9717C52EB8207200EE82A9 /* ConversationScenario.swift */; };
+		5B9717C82EB823B200EE82A9 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9717C72EB823B200EE82A9 /* Message.swift */; };
+		5B9717CA2EB824D400EE82A9 /* VocabularyWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9717C92EB824D400EE82A9 /* VocabularyWord.swift */; };
+		5B9717CC2EB826DA00EE82A9 /* PronunciationExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9717CB2EB826DA00EE82A9 /* PronunciationExercise.swift */; };
+		5B9717CE2EB827B500EE82A9 /* GrammarExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9717CD2EB827B500EE82A9 /* GrammarExercise.swift */; };
+		5B9717D02EB82A5600EE82A9 /* ReadingMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9717CF2EB82A5600EE82A9 /* ReadingMaterial.swift */; };
+		5B9717D22EB82B5000EE82A9 /* ProgressType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9717D12EB82B5000EE82A9 /* ProgressType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +41,17 @@
 		5B711C512EB45FE500BCE696 /* ConversationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCoordinator.swift; sourceTree = "<group>"; };
 		5B711C532EB461A000BCE696 /* AppDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
 		5B711C552EB4659B00BCE696 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5B8EDFDD2EB6FB3900BAB582 /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		5B9717BF2EB7B28A00EE82A9 /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		5B9717C12EB818F600EE82A9 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		5B9717C32EB81F6500EE82A9 /* UserProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProgress.swift; sourceTree = "<group>"; };
+		5B9717C52EB8207200EE82A9 /* ConversationScenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationScenario.swift; sourceTree = "<group>"; };
+		5B9717C72EB823B200EE82A9 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		5B9717C92EB824D400EE82A9 /* VocabularyWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyWord.swift; sourceTree = "<group>"; };
+		5B9717CB2EB826DA00EE82A9 /* PronunciationExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PronunciationExercise.swift; sourceTree = "<group>"; };
+		5B9717CD2EB827B500EE82A9 /* GrammarExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarExercise.swift; sourceTree = "<group>"; };
+		5B9717CF2EB82A5600EE82A9 /* ReadingMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingMaterial.swift; sourceTree = "<group>"; };
+		5B9717D12EB82B5000EE82A9 /* ProgressType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +91,17 @@
 				5B711C512EB45FE500BCE696 /* ConversationCoordinator.swift */,
 				5B711C532EB461A000BCE696 /* AppDependencies.swift */,
 				5B711C552EB4659B00BCE696 /* HomeViewController.swift */,
+				5B8EDFDD2EB6FB3900BAB582 /* ActivityCell.swift */,
+				5B9717BF2EB7B28A00EE82A9 /* ConversationViewController.swift */,
+				5B9717C12EB818F600EE82A9 /* MessageCell.swift */,
+				5B9717C32EB81F6500EE82A9 /* UserProgress.swift */,
+				5B9717C52EB8207200EE82A9 /* ConversationScenario.swift */,
+				5B9717C72EB823B200EE82A9 /* Message.swift */,
+				5B9717C92EB824D400EE82A9 /* VocabularyWord.swift */,
+				5B9717CB2EB826DA00EE82A9 /* PronunciationExercise.swift */,
+				5B9717CD2EB827B500EE82A9 /* GrammarExercise.swift */,
+				5B9717CF2EB82A5600EE82A9 /* ReadingMaterial.swift */,
+				5B9717D12EB82B5000EE82A9 /* ProgressType.swift */,
 				5B711C422EB4316000BCE696 /* Assets.xcassets */,
 				5B711C442EB4316000BCE696 /* LaunchScreen.storyboard */,
 				5B711C472EB4316000BCE696 /* Info.plist */,
@@ -147,12 +180,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B711C542EB461A000BCE696 /* AppDependencies.swift in Sources */,
+				5B9717C22EB818F600EE82A9 /* MessageCell.swift in Sources */,
 				5B711C4E2EB4597600BCE696 /* AppCoordinator.swift in Sources */,
+				5B9717C02EB7B28A00EE82A9 /* ConversationViewController.swift in Sources */,
+				5B8EDFDE2EB6FB3900BAB582 /* ActivityCell.swift in Sources */,
 				5B711C522EB45FE500BCE696 /* ConversationCoordinator.swift in Sources */,
 				5B711C502EB45CFD00BCE696 /* HomeCoordinator.swift in Sources */,
+				5B9717CC2EB826DA00EE82A9 /* PronunciationExercise.swift in Sources */,
+				5B9717D22EB82B5000EE82A9 /* ProgressType.swift in Sources */,
+				5B9717C42EB81F6500EE82A9 /* UserProgress.swift in Sources */,
+				5B9717C62EB8207200EE82A9 /* ConversationScenario.swift in Sources */,
+				5B9717C82EB823B200EE82A9 /* Message.swift in Sources */,
 				5B711C3A2EB4315D00BCE696 /* AppDelegate.swift in Sources */,
+				5B9717CA2EB824D400EE82A9 /* VocabularyWord.swift in Sources */,
 				5B711C562EB4659B00BCE696 /* HomeViewController.swift in Sources */,
+				5B9717D02EB82A5600EE82A9 /* ReadingMaterial.swift in Sources */,
 				5B711C3C2EB4315D00BCE696 /* SceneDelegate.swift in Sources */,
+				5B9717CE2EB827B500EE82A9 /* GrammarExercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
